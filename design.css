@@ -7,6 +7,14 @@ body {
   font-weight: 400;
   color: #555;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 2.4rem;
+}
 .hero {
   max-width: 130rem;
   margin: 0 auto;
