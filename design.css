@@ -7,14 +7,57 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+/* Header Section */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 9.6rem;
+  background-color: #fdf2e9;
 }
 .logo {
   height: 2.4rem;
 }
+
+/* Navigation Section */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:visited {
+  color: #eb984e;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:visited {
+  background-color: #eb984e;
+}
+
+/* Hero Section */
 .hero {
   max-width: 130rem;
   margin: 0 auto;
@@ -22,6 +65,7 @@ body {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 9.6rem;
+  padding: 0 3.2rem;
 }
 .hero-img {
   width: 100%;
@@ -41,7 +85,7 @@ body {
 
 .hero-sect {
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
+  padding: 4.8rem 9.6rem 0;
 }
 .btn:link,
 .btn:visited {
