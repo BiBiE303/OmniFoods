@@ -15,6 +15,7 @@ body {
   align-items: center;
   height: 9.6rem;
   background-color: #fdf2e9;
+  padding: 0 4.8rem;
 }
 .logo {
   height: 2.4rem;
@@ -64,8 +65,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 9.6rem;
-  padding: 0 3.2rem;
+  gap: 6.4rem;
+  padding: 0 6rem;
 }
 .hero-img {
   width: 100%;
@@ -139,7 +140,7 @@ body {
 
 .hero-sect {
   background-color: #fdf2e9;
-  padding: 4.8rem 9.6rem 0;
+  padding: 4.8rem 0 9.6rem 0;
 }
 .btn,
 .btn:link,
@@ -262,7 +263,7 @@ strong {
 
 /* Featured In Section */
 .featured-section {
-  padding: 4.8rem 0 3.2rem 0;
+  padding: 4.8rem 6.4rem 3.2rem 0;
 }
 .featured-in-heading {
   font-size: 1.4rem;
@@ -333,7 +334,7 @@ strong {
 
 /* Meals Section */
 .meals-section {
-  padding: 9.6rem;
+  padding: 9.6rem 0;
 }
 
 .meal-tags {
@@ -430,7 +431,7 @@ strong {
   align-items: center;
 }
 .testimonials-container {
-  padding: 9.6rem 0;
+  padding: 9.6rem 6.4rem;
 }
 .testimonials {
   display: grid;
@@ -439,11 +440,9 @@ strong {
   column-gap: 8rem;
 }
 .testimonial-text {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   line-height: 1.8;
-  margin-left: 0.1rem;
-  letter-spacing: 1.2;
-  font-weight: 500;
+
   margin-bottom: 1.6rem;
 }
 .testimonial-img {
@@ -694,6 +693,7 @@ strong {
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 3.2rem;
+  margin-right: 1rem;
 }
 
 .contacts {
@@ -711,6 +711,7 @@ strong {
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
+  width: 100%;
 }
 
 .footer-link:link,
