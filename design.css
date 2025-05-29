@@ -384,10 +384,25 @@ strong {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 2rem;
 }
+
+ul.meal-attributes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  column-count: 1;
+  width: 100%;
+}
+ul.meal-attributes li {
+  margin-bottom: 12px;
+}
+
 .meal-attribute {
   font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
 }
 .meal-img {
   width: 100%;
@@ -425,53 +440,47 @@ strong {
 
 /* Testimonials Section */
 .testimonial-section {
+  padding: 6.4rem;
   background-color: #fdf2e9;
   display: grid;
   grid-template-columns: 55fr 45fr;
-  align-items: center;
 }
-.testimonials-container {
-  padding: 9.6rem 6.4rem;
-}
+
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 4.8rem;
-  column-gap: 8rem;
-}
-.testimonial-text {
-  font-size: 1.8rem;
-  line-height: 1.8;
-
-  margin-bottom: 1.6rem;
+  gap: 4.8rem;
 }
 .testimonial-img {
   width: 6.4rem;
   border-radius: 50%;
-  margin-bottom: 1.2rem;
-  margin-left: 0.1rem;
 }
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+
 .testimonial-name {
   font-size: 1.6rem;
-  color: #6f6f6f;
-  margin-left: 0.1rem;
+  color: rgb(111, 111, 111);
 }
 
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 1.6rem;
-  gap: 1.6rem;
-}
-.gallery-item {
-  overflow: hidden;
+
+  row-gap: 0.01rem;
+  column-gap: 0.2rem;
 }
 
 .gallery-item img {
   display: block;
-  width: 100%;
+  width: 200%;
   transition: all 0.4s;
 }
+
 .gallery-item img:hover {
   transform: scale(1.1);
 }
@@ -611,9 +620,7 @@ strong {
 }
 
 .cta-img-box {
-  background-image: url("images/girl-eating.jpg");
-  background-size: cover;
-  background-position: center;
+  background-image: url(../OmniFoods/images/girl-eating.jpg);
 }
 
 .cta-form {
@@ -629,6 +636,7 @@ strong {
   font-weight: 600;
   margin-bottom: 1.2rem;
 }
+
 .cta-form input,
 .cta-form select {
   width: 100%;
@@ -678,9 +686,18 @@ strong {
   gap: 2.4rem;
 }
 
+.ul.social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  column-count: 1;
+  width: 100%;
+}
+
 .social-icon {
   height: 2.4rem;
   width: 2.4rem;
+  display: inline;
 }
 
 .copyright {
@@ -712,6 +729,17 @@ strong {
   flex-direction: column;
   gap: 2.4rem;
   width: 100%;
+}
+
+ul.footer-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  column-count: 1;
+  width: 100%;
+}
+ul.footer-nav li {
+  margin-bottom: 12px;
 }
 
 .footer-link:link,
